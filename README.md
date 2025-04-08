@@ -1,56 +1,71 @@
 Doğum Günü Uygulaması
-Bu uygulama, kullanıcıların doğum günlerini kolayca kaydedebileceği ve yönetebileceği bir platform sunar. Kullanıcılar, kaydettikleri kişilerin isimlerini ve doğum günlerini görüntüleyebilir, düzenleyebilir veya silebilir. Uygulama, kullanıcı dostu bir arayüz ve basit işlevlerle tasarlanmıştır.
 
-Projede Kullanılan Sayfalar ve Görevleri
+Bu uygulama kullanıcıya doğum gününü hatırlamak istediği kişilerin doğum günleriyle isimlerini kaydetmelerine yardımcı olur.
+Uygulama, kullanıcıların kolayca doğum günü bilgilerini ekleyebileceği ve düzenleyebileceği basit bir arayüz sunar.
+Projedeki Sayfaların Görevleri ve İçerikleri
+
 1. Giriş Sayfası (Login Page)
 Görev: Kullanıcı adı ve şifre ile giriş yapma.
-İçerik: Kullanıcı, uygulamaya giriş yapmak için bir kullanıcı adı ve şifre girmelidir. Başarılı bir giriş yapılırsa, kullanıcı kişisel sayfasına yönlendirilir. Yanlış bilgiler girildiğinde ise bir hata mesajı gösterilir.
+
+İçerik: Kullanıcıdan giriş yapabilmesi için bir kullanıcı adı girmesi istenir. Giriş başarılı olduğunda, kullanıcı adı doğrultusunda kişisel sayfaya yönlendirilir. Başarılı değilse ekrana girişin hatalı olduğuna dair bir uyarı çıkar.
 
 2. Ana Sayfa (Home Page)
 Görev: Kullanıcıya ait doğum günü listelerini gösterme.
-İçerik: Kullanıcı, daha önce kaydedilen doğum günü bilgilerini görüntüleyebilir ve gerekirse silebilir.
+
+İçerik: Kullanıcı, kaydedilen doğum günü bilgilerini görüntüleyebilir. İsterse silebilir.
 
 3. Doğum Günü Ekleme Sayfası (Add Birthday Page)
 Görev: Yeni bir doğum günü ekleme işlemi.
-İçerik: Kullanıcı, isim, soyisim ve doğum tarihi bilgilerini girer. Doğum günü tarihi kaydedilmeden önce kontrol edilir ve doğrulandıktan sonra başarılı bir şekilde kaydedilir. Kullanıcı, işlemin başarılı olduğuna dair bir uyarı alır.
+
+İçerik: Kullanıcı, bu sayfada İsim - Soyaisim ve tarih seçimi yapar. Seçtiği tarihi kaydetmeden önce kontrol etmek için ekranda görür. Her şey doğruysa kaydeder ve ekranda kayıt işlemini başarılı olduğuna dair uyarı alır.
 
 4. Çıkış Sayfası (Logout Page)
 Görev: Kullanıcının uygulamadan çıkış yapması.
-İçerik: Kullanıcı çıkış yaptıktan sonra giriş sayfasına yönlendirilir.
 
+İçerik: Kullanıcı çıkış yapar ve giriş sayfasına yönlendirilir.
 Drawer Menüde Kullandığınız Logo API Bilgileri
-Logo URL:https://img.logo.dev/birthdate.co
+
+Logo URL: https://img.logo.dev/birthdate.co
 
 Format: WebP
-Boyut: 128x128 piksel
-Fallback: Monogram
-Retina Desteği: Mevcut
 
+Boyut: 128x128 piksel
+
+Fallback: Monogram
+
+Retina Desteği: Mevcut
 Login Bilgilerini Nasıl Sakladığınız
-Login bilgileri, güvenli bir şekilde saklanmak için Flutter Secure Storage kullanılarak depolanır.
+
+Logn Bilgileri Flutter Secure Storage ile saklanır.
 
 Grup Üyelerinin Projeye Katkısı
+
 Abdullah Belli
-Uygulamanın yapısını ve işleyişini tasarladı.
 
-Flutter ile tüm sayfaları geliştirdi.
+    Uygulama yapısını ve işleyişini tasarladı.
 
-Sayfalar arası geçiş ve yönlendirmeleri kodladı.
+    Flutter ile tüm sayfaları geliştirdi.
+
+    Sayfalar arası geçiş ve yönlendirmeleri kodladı.
 
 Furkan Kalay
-Uygulamanın arayüzünü (UI/UX) tasarladı.
 
-Doğum günü ekleme ve listeleme işlemlerini geliştirdi.
+    Uygulamanın arayüzünü tasarladı (UI/UX).
 
-Drawer menüsünü oluşturdu.
+    Doğum günü ekleme ve listeleme işlemlerini geliştirdi.
 
-Uygulamayı test etti ve hataları giderdi.
+    Drawer menüsünü oluşturdu.
 
-Diğer Bilgiler
-Tek Kullanıcı: Uygulamaya yalnızca tek bir kullanıcı adı ile giriş yapılabilir.
+    Uygulamayı test etti ve hataları giderdi.
+Diğer Anlatmak İstedikleriniz
 
-Kullanıcı Adı: user
+Karışıklık olmaması adına uygulamaya tek bir kullanıcı adı ile girebiliyorsunuz.
 
-Şifre: 12345
+Bundan dolayı giriş yaparken;
 
-Bu bilgileri kullanarak uygulamaya giriş yapabilirsiniz.
+    Kullanıcı Adı : user
+    Şifre: 12345
+
+olarak giriş yapınız.
+
+bunu readme formatına çevir
